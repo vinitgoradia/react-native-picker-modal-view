@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalComponent rendering should render a Modal Component 1`] = `
+Array [
+  <react-native-mock>
+    <react-native-mock>
+      <react-native-mock>
+        John Doe
+      </react-native-mock>
+      <react-native-mock />
+    </react-native-mock>
+  </react-native-mock>,
+  <react-native-mock>
+    <react-native-mock>
+      <react-native-mock>
+        <react-native-mock>
+          <react-native-mock />
+        </react-native-mock>
+        <react-native-mock />
+        <react-native-mock>
+          <react-native-mock />
+        </react-native-mock>
+      </react-native-mock>
+      <react-native-mock>
+        <react-native-mock>
+          <react-native-mock>
+            <react-native-mock>
+              <react-native-mock>
+                <react-native-mock>
+                  John Doe
+                </react-native-mock>
+              </react-native-mock>
+            </react-native-mock>
+            <react-native-mock>
+              <react-native-mock>
+                <react-native-mock>
+                  Ali Doe
+                </react-native-mock>
+              </react-native-mock>
+            </react-native-mock>
+            <react-native-mock>
+              <react-native-mock>
+                <react-native-mock>
+                  Çetin Doe
+                </react-native-mock>
+              </react-native-mock>
+            </react-native-mock>
+            <react-native-mock>
+              <react-native-mock>
+                <react-native-mock>
+                  Şule Doe
+                </react-native-mock>
+              </react-native-mock>
+            </react-native-mock>
+          </react-native-mock>
+        </react-native-mock>
+      </react-native-mock>
+    </react-native-mock>
+  </react-native-mock>,
+]
+`;
