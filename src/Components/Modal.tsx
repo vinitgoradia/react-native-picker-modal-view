@@ -19,7 +19,7 @@ export class ModalComponent extends React.PureComponent<IModalProps, IModalState
 		selectedObject: {} as IModalListInDto,
 	};
 
-	public static defaultProps = { showToTopButton: true, modalAnimationType: 'slide', showAlphabeticalIndex: false, searchInputTextColor: '#252525', autoGenerateAlphabeticalIndex: false, sortingLanguage: 'tr', removeClippedSubviews: false, selectPlaceholderText: 'Choose one...', searchPlaceholderText: 'Search...', autoSort: false, items: [], disabled: false, requireSelection: false, };
+	public static defaultProps = { showToTopButton: true, modalAnimationType: 'slide', showAlphabeticalIndex: false, searchInputTextColor: '#252525', autoGenerateAlphabeticalIndex: false, sortingLanguage: 'tr', removeClippedSubviews: false, selectPlaceholderText: 'Choose one...', searchPlaceholderText: 'Search...', autoSort: false, items: [], disabled: false, requireSelection: false, isSource: false, isDestination: false};
 	private viewabilityConfig: { minimumViewTime: number; waitForInteraction: boolean; viewAreaCoveragePercentThreshold: number; };
 
 	constructor(props: IModalProps) {
